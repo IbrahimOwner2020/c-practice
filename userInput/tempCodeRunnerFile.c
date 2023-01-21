@@ -1,1 +1,0 @@
-, sizeof(name), stdin
