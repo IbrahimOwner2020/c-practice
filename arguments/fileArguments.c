@@ -5,10 +5,10 @@
 int main(int argc, char *argv[])
 {
     // Print the number of arguments
-    printf("Number of arguments: %d\n", argc);
+    printf("Number of arguments: %d\n", argc - 1);
 
     // Print each argument
-    for (int i = 0; i < argc; i++)
+    for (int i = 1; i < argc; i++)
     {
         printf("argv[%d]: %s\n", i, argv[i]);
     }
